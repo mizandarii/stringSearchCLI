@@ -1,0 +1,18 @@
+{
+    "query": "Python",
+    "files": {
+        "testData/awesome.txt": [
+            39
+        ],
+        "testData/data.csv": [
+            57,
+            86
+        ],
+        "testData/create_test_data.py": [
+            72
+        ],
+        "testData/script.py": [
+            13
+        ]
+    }
+}
