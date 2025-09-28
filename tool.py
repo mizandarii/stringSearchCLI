@@ -105,7 +105,7 @@ class StringSearchTool:
                     with open(file_path, "r", encoding="utf-8") as f:
                         content = f.read()
                     for pos in positions:
-                        start = pos - 20
+                        start = max(0,  pos - 20)
                         end = pos + len(query) + 20
                         context = content[start:end].replace("\n", " ")
                         print(f"  ...{context}...")
