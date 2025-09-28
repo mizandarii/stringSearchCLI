@@ -52,11 +52,12 @@ Examples:
 ```bash
 python3 tool.py show res.json raw
 ```
-
+![results of show raw](/screenshots/show_raw "output of show <filename> raw")
 ```bash
-python3 tool.py show res.json raw
+python3 tool.py show res.json line
 ```
-
+![results of show line](/screenshots/show_line "output of show <filename> line")
 ```bash
-python3 tool.py show res.json raw
+python3 tool.py show res.json less
 ```
+![results of show raw](/screenshots/show_less "output of show <filename> less")
